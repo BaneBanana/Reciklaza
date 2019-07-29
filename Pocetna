@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Recikliyam">
+<meta name="keywords" content="Reciklaza u Srbiji,Inovacije u biznisu,Mladi preduzetnici,Nova grana industrije">
+<meta name="author" contetn="Nikola Brankovic">
+<meta name="viewport" content="width=device-width, initial-scale:1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+button { background-color:black; 
+          color:white; 
+		  }
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 173, 73);
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left:20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+  }
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Reciklizam</h1>
+<p>Udruzenje ljudi</p>
+</div>
+<div class="topnav">
+ <a href="Pocetna.htm">Pocetna</a>
+ <a href="#">Novosti</a>
+ <a href="Recikliranje.htm">Recikliranje</a>
+ <a href="Reciklazni.htm">Reciklazni potencijal</a>
+ <a href="#">Projekti</a>
+ <a href="Contact.htm" style="float:right">Contact</a>
+</div>
+<div class="row">
+ <div class="leftcolumn">
+  <div class="card">
+  <h2>Ko smo mi?</h2>
+  <p>Mi smo organizacija koja se bavi...</p>
+  <img src="123.jpg" alt="Nas moto">
+  </div>
+ <div class="card">
+  <h2>Koji su nasi ciljevi?</h2>
+  <p>Свесни смо сталних промена, у којима смо неретко чланови водећих организација или бар оне имају утицаја на нас. Свака промена је тешка, а неретко је и једино решење. Такве одлуке, односно идеје о променама су обично осуђиване и пре него да се почне њихова реализација. Сви су упознати са реформама које је наша земља спорвела у 2014. години, смањивање плата и пензија у јавном сектору, које имају имају у плану повећање државног буџета. Већим државним буџетом, држава има шансу да успостави већу контролу и убрза развој и опоравак земље. Прошло је скоро 5 година, најгори потез који може да се уради јесте да се не предузме следећи корак. Време је за нове промене, промене о еколошкој свести, рециклазжи и стварање једне нове гране индустрије.<br><br>Прича или сама помисао о промени свести једне групе љјуди, није једноставна. То је немогуће урадити  класичним, досадним, презентацијама које можемо видети на сваком кораку. Оне немају никакву поенту, јер присталице таквих пројеката су у мањини која се олако угуши у маси. Поред презентација, сличне безуспешне примере можемо срести у школама и пројектима који су засновани на добровољном раду ученика. Можемо рећи да смо потрошили време, борећи се у изгубљеној бици. Најефикасније решење је увек оно од кога би свако имао користи, јер другачије би све пропало. Поставља се питање: „како Србија може да реши свој еколошки проблем?“<br><br>Најједноставнији одговор на тако кратко, али ни мало једноставно питање, јесте рециклажа. Постоји у Србији велики број фирми које се баве рециклажом, али сетите се када сте ви лично однели нешто на рециклажу, под условом да нисте носили празне амбалаже освежавајућег пића на замену? Одговор је већ јасан у самом питању. Срећом нисмо се први сусрели са оваквим проблемом, тако да можемо решити по угледу на друге земље. Као најбољи пример можемо уети Шведску, Немачку или неку од других водећих европских земаља.</p>
+  </div>
+ </div>
+<div class="rightcolumn">
+ <br><br><br><br><div class="card">
+  <h3>Sta reci</h3> 
+  <img src="reciklaza.jpg" alt="Nas moto" style=";width:240px;height:180px">
+  </div>
+ <br><br><br><br><div class="card">
+  <h3>Donacije</h3>
+  <p>Ovde mozete donirati sretstva pomocu kojih finansiramo projekte.</p>
+  <button>Klikni ovde!</button>
+  </div>
+ </div>
+</div>
+<div class="footer">
+<h2>Footer</h2>
+<address>ovde treba uneti nesto</address>
+</div>
+
+</body>
+</html>
